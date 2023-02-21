@@ -377,6 +377,7 @@
 "Assets/Script/GameManager.cs"
 "Assets/Script/NotificationManager.cs"
 "Assets/Script/PhotonSetting.cs"
+"Assets/Script/RoomManager.cs"
 -langversion:9.0
 
 /deterministic
