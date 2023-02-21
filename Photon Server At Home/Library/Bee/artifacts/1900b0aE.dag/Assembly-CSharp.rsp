@@ -338,7 +338,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PlayFab.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PlayFabEditorExtensions.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PlayFabSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -368,7 +370,9 @@
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Script/ConnectServer.cs"
 "Assets/Script/NotificationManager.cs"
+"Assets/Script/PhotonSetting.cs"
 -langversion:9.0
 
 /deterministic
