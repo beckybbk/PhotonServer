@@ -42,7 +42,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
         }
     }
 
-    public void OnCanvasGroupChanged()
+    public void OnClickCreateRoom()
     {
         RoomOptions Room=new RoomOptions();
         Room.MaxPlayers=byte.Parse(RoomPerson.text);

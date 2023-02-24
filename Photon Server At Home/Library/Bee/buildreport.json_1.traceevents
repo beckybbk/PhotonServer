@@ -1,0 +1,712 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677238411766880, "dur": 1446172, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238411767106, "dur": 13433, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238411780542, "dur": 31727, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238411812271, "dur": 628213, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238412440487, "dur": 760170, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238413200660, "dur": 12391, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238413213452, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677238412109920, "dur": 310974, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412110763, "dur": 38875, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412407936, "dur": 3680, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412411619, "dur": 9270, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412412202, "dur": 8190, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412424497, "dur": 1058, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238412423862, "dur": 1711, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238413213554, "dur": 188, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677238412469400, "dur":674, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238412470078, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677238412470155, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677238412470170, "dur":380, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677238412470566, "dur":461, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238412471027, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413177754, "dur":290, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178044, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178060, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178084, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178112, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178115, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178123, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178129, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178134, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178136, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178140, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178141, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178147, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178149, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178153, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178154, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178159, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178218, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178227, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178228, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178233, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178234, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178238, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178239, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178243, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178244, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178249, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178250, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178255, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178256, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178261, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178269, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413178281, "dur":842, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677238412470569, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412471034, "dur":4066, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412475108, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238412475112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412475901, "dur":187, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238412476091, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238412476122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412476225, "dur":5312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238412481540, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677238412481656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412481662, "dur":149135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677238412630831, "dur":15368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412646204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412646211, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412647000, "dur":35361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412682363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412682368, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412683047, "dur":16995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412700045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412700050, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412700978, "dur":37259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412738242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412738250, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412739211, "dur":5179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238412744394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412744400, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238412745277, "dur":12743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238412758025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412758032, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238412759044, "dur":16725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412775772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412775777, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412776479, "dur":204574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412981056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412981068, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412984586, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412985301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412985621, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238412986952, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412987042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412987275, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412988051, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238412988090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412988094, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238412989568, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412989604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412989608, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412990519, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412990555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412990558, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412991288, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238412991326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412991330, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238412992847, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412992882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412992886, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677238412993845, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412993991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412993995, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412994780, "dur":698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412995481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412995487, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1677238412996291, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238412996332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238412996336, "dur":21347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677238413017718, "dur":160046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412470591, "dur":450, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412471042, "dur":4065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412475109, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677238412475518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412476239, "dur":8310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677238412484699, "dur":117231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412601933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412601997, "dur":5402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412607434, "dur":14099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412621537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412621543, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412622272, "dur":16250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412638526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412638533, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412639340, "dur":38437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412677781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412677790, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412679112, "dur":59132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412738248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412738252, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412739316, "dur":32735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412772055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412772063, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412772857, "dur":15292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238412788152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412788157, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238412790403, "dur":77116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412867524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238412867551, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238412868507, "dur":184966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238413053478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238413053487, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238413055919, "dur":121842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412470583, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412471036, "dur":4068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412475109, "dur":20464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1677238412495577, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412495751, "dur":40331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1677238412536126, "dur":24060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412560189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412560194, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412562151, "dur":17159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412579315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412579321, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412580145, "dur":4660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1677238412584809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412584814, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1677238412585630, "dur":29823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412615459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412615468, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412616390, "dur":42667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412659062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412659070, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412660007, "dur":126807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412786819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412786826, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412787994, "dur":141948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412929948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238412929955, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238412931523, "dur":127832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238413059359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238413059364, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238413060108, "dur":117645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412470606, "dur":440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412471046, "dur":4079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412475126, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677238412475296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412480003, "dur":54406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677238412534484, "dur":26995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412561482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412561487, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412562570, "dur":13761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412576335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412576342, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412577736, "dur":123376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412701116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412701122, "dur":6021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412707173, "dur":108830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412816006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238412816010, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238412816731, "dur":225555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238413042292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238413042298, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238413044580, "dur":133168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412470625, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412471050, "dur":4061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412475113, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1677238412475282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412479670, "dur":54736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1677238412534452, "dur":16212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412550668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412550673, "dur":11195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412561902, "dur":16892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412578800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412578810, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412580265, "dur":162241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412742512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412742518, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412749434, "dur":65574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412815011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412815016, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412815753, "dur":161683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412977440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238412977444, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238412980581, "dur":84236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238413064822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238413064827, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238413065586, "dur":112173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412470641, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412471054, "dur":4051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412475109, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1677238412475276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412476399, "dur":7234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1677238412483668, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1677238412483763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412483768, "dur":50518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1677238412534321, "dur":13976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412548304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412548503, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412549043, "dur":13783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412562830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412562835, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412563450, "dur":46589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412610045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412610052, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412611502, "dur":55865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412667371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412667376, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412672973, "dur":22779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412695754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412695759, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412698186, "dur":17468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412715658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412715662, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412716785, "dur":7942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412724732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412724739, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412725642, "dur":5938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412731584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412731591, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412732321, "dur":13458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412745782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412745787, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412746391, "dur":4245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412750639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412750645, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412751471, "dur":9275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412760752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412760760, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412761496, "dur":22916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412784416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412784423, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238412785251, "dur":160954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412946208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238412946212, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238412949244, "dur":66227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238413015477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238413015485, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238413016552, "dur":161210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412470661, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412471057, "dur":4052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412475110, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1677238412475305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412484456, "dur":49478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1677238412533965, "dur":183736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238412717704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412717709, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238412719412, "dur":192806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238412912223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412912230, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238412913299, "dur":8665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1677238412921970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238412921978, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1677238412924328, "dur":140511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238413064841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238413064845, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238413065611, "dur":112151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412470674, "dur":386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412471060, "dur":4048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412475112, "dur":8878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677238412483993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412483997, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677238412484842, "dur":85976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677238412570823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412570828, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677238412572843, "dur":14250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412587097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412587104, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412588526, "dur":31133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412619666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412619672, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412620446, "dur":14962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412635414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412635422, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412636266, "dur":29664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412665933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412665936, "dur":5919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412671884, "dur":23058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412694946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412694951, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412695600, "dur":15284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412710892, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412710900, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412711703, "dur":17380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412729087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412729094, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412729789, "dur":9698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412739490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412739495, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412740159, "dur":4643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412744805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412744811, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412745465, "dur":23564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412769033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412769040, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412771370, "dur":27832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412799207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412799215, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412800112, "dur":80972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412881087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412881093, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238412883117, "dur":4992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412888116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412888124, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412889309, "dur":4716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412894030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412894037, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412894886, "dur":4635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412899526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238412899532, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1677238412900286, "dur":151574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238413051872, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238413051886, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238413053113, "dur":124643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412470693, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412471063, "dur":4046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412475109, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677238412475464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412476259, "dur":152295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677238412628589, "dur":26108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412654704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412654713, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412655440, "dur":23612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412679056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412679064, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412679887, "dur":19923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412699814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412699819, "dur":6844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412706734, "dur":70465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412777203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412777209, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412778293, "dur":63825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412842127, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412842139, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412843195, "dur":38320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412881518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412881522, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412883117, "dur":91732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412974876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238412974883, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238412975724, "dur":166524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238413142253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238413142258, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238413142968, "dur":34786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412470709, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412471065, "dur":4048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412475115, "dur":8724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1677238412483842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412483846, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1677238412484740, "dur":350630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238412835376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412835382, "dur":28109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238412863527, "dur":8276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PlayFab.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412871809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412871816, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PlayFab.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412873237, "dur":7499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412881313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412881318, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412883235, "dur":69761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238412952999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412953006, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238412954024, "dur":7395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412961425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238412961432, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1677238412962436, "dur":212772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238413175212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238413175216, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238413177711, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1677238413177712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412470722, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412471069, "dur":4057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412475126, "dur":10157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1677238412485286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412485292, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1677238412485997, "dur":47391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home.exe" }}
+,{ "pid":12345, "tid":11, "ts":1677238412533395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412533403, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home.exe" }}
+,{ "pid":12345, "tid":11, "ts":1677238412536577, "dur":12901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412549481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412549544, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412550146, "dur":76044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412626196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412626203, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412628118, "dur":15601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412643728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412643737, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412644620, "dur":54654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412699279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412699286, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412702068, "dur":15050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412717122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412717127, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412718190, "dur":31850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412750044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412750052, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412751288, "dur":6733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412758025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412758032, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412759151, "dur":36147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412795304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412795312, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412796530, "dur":75576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412872110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412872115, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412874030, "dur":52331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412926366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412926374, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238412927231, "dur":12558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412939797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412939827, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412940711, "dur":5099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412945816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238412945825, "dur":6770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238412952632, "dur":132059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238413084695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238413084700, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238413085614, "dur":92149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412470741, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412471072, "dur":4043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412475115, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1677238412475290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412480016, "dur":53963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1677238412534012, "dur":48909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412582928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412582936, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412583754, "dur":14819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412598578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412598586, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412599486, "dur":116126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412715619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412715626, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412717056, "dur":94157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412811218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412811225, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412814663, "dur":39252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412853921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412853927, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412854856, "dur":91415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412946274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412946277, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238412949462, "dur":4796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1677238412954262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238412954267, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1677238412955241, "dur":99595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238413054846, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238413054892, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238413056964, "dur":120806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412470759, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412471075, "dur":4042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412475117, "dur":7813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1677238412482933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412482938, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1677238412483839, "dur":49556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412533399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412533742, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412535805, "dur":24789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412560596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412560600, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412562182, "dur":13927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412576117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412576127, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412577130, "dur":23704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412600839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412600847, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412601630, "dur":32055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412633690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412633698, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412634419, "dur":14386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412648811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412648818, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412649661, "dur":15765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412665433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412665441, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412667049, "dur":14909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412681963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412681970, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412682833, "dur":17559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412700395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412700401, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412701177, "dur":27673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412728853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412728859, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412729977, "dur":44238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412774220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412774227, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412775236, "dur":23970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412799209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412799215, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412800048, "dur":26626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412826680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412826686, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412827429, "dur":149779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412977212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412977219, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238412979857, "dur":6354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1677238412986217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412986225, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1677238412987166, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1677238412987208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412987270, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1677238412988324, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238412988365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412988368, "dur":7683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238412996086, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/resources.resource" }}
+,{ "pid":12345, "tid":13, "ts":1677238412996124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412996128, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/resources.resource" }}
+,{ "pid":12345, "tid":13, "ts":1677238412998073, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level3.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238412998115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412998120, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level3.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238412999410, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1677238412999452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238412999457, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1677238413000239, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level2.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413000275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238413000280, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level2.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413001139, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413001179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238413001183, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413002630, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413002674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238413002678, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238413004242, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1677238413004288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238413004292, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1677238413005751, "dur":172001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412470775, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412471078, "dur":4032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412475111, "dur":8666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1677238412483780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412483821, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1677238412484738, "dur":51927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412536668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412536696, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412537410, "dur":22125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412559540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412559546, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412562415, "dur":14109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412576527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412576532, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412577358, "dur":34164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412611525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412611533, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412612882, "dur":34058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412646944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412646949, "dur":8033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412655038, "dur":20025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412675071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412675081, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412677058, "dur":16734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412693802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412693811, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412694652, "dur":24096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412718752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412718759, "dur":9881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412728675, "dur":4718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412733397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412733404, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412734269, "dur":27201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412761473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412761479, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412762078, "dur":19635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412781723, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412781736, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412783228, "dur":97012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412880246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412880254, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238412881263, "dur":7096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238412888363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238412888471, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238412889392, "dur":122454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238413011850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238413011857, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238413012868, "dur":164882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412470790, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412471081, "dur":4033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412475114, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1677238412475308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412484357, "dur":155473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1677238412639866, "dur":14848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412654717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412654722, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412655461, "dur":32166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412687633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412687640, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412688476, "dur":158278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412846759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412846766, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412849039, "dur":133454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412982498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412982504, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412984439, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412985096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412985643, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412986905, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412987125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412987280, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238412988236, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238412988272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412988276, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238412989636, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1677238412989670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412989676, "dur":7330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1677238412997042, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238412997080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238412997084, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238413001078, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1677238413001113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238413001117, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1677238413002307, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1677238413002345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238413002351, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003134, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003178, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003941, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238413003989, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238413005451, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1677238413005566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238413005570, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1677238413006287, "dur":171464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412470808, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412471083, "dur":4022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412475109, "dur":7689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1677238412482801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412482866, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1677238412483698, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1677238412483777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412483781, "dur":50106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1677238412533936, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1677238412534031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412535642, "dur":33731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1677238412569423, "dur":62946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412632374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412632383, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412633149, "dur":32714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412665866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412665873, "dur":12933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412680696, "dur":25498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412706231, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412706241, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412707288, "dur":35362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412742653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412742661, "dur":12923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412755676, "dur":12840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412768525, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412768539, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412770331, "dur":5358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238412775692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412775699, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238412776426, "dur":76099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412852535, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412852546, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412854083, "dur":100648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412954735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238412954741, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238412956516, "dur":54693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build_test/Photon Server At Home_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238413011216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238413011224, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build_test/Photon Server At Home_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238413012368, "dur":165382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238413179875, "dur":1617, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677238413213797, "dur": 875, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238413213433, "dur": 1257, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -13,7 +13,11 @@ public class ChatManager : MonoBehaviourPunCallbacks
     {
         if(Input.GetKeyDown(KeyCode.Return))
         {
-            if (input.text.Length == 0) return;
+            if (input.text.Length == 0)
+            {
+                input.ActivateInputField();
+            }
+
             string chat = PhotonNetwork.NickName+" : " + input.text;
             photonView.RPC("Chatting", RpcTarget.All, chat);
         }      
