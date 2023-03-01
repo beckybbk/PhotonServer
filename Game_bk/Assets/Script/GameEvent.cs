@@ -6,7 +6,9 @@ using UnityEngine;
 public class GameEvent : MonoBehaviour
 {
     public static GameEvent instance;
-    public event Action onDoorEnter;
+    
+    public event Action<int> onDoorEnter;  
+    public event Action<int> onDoorExit;
 
 
     private void Awake()
@@ -19,13 +21,23 @@ public class GameEvent : MonoBehaviour
         }
     }
 
-    public void DoorTriggerEnter()
+    public void DoorTriggerEnter(int enterCount)
     {
         if(onDoorEnter != null)
         {
-            onDoorEnter();
+            onDoorEnter(enterCount);
 
         }
     }
-        
+
+    public void DoorTriggerExit(int exitCount)
+    {
+        if (onDoorExit != null)
+        {
+            onDoorExit(exitCount);
+
+        }
+    }
+
+
 }
