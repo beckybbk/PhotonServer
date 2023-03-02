@@ -352,10 +352,13 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/Script/CollisionArea.cs"
-"Assets/Script/Door.cs"
-"Assets/Script/GameEvent.cs"
-"Assets/Script/Player.cs"
+"Assets/Script/Button/CreateButton.cs"
+"Assets/Script/Button/TitleButton.cs"
+"Assets/Script/Map Event/CollisionArea.cs"
+"Assets/Script/Map Event/Door.cs"
+"Assets/Script/Map Event/GameEvent.cs"
+"Assets/Script/Player/CameraRotation.cs"
+"Assets/Script/Player/Player.cs"
 -langversion:9.0
 
 /deterministic
