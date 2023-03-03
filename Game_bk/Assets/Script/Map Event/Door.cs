@@ -11,8 +11,8 @@ public class Door : MonoBehaviour
     void Start()
     {
         animator= GetComponent<Animator>();
-        GameEvent.instance.onDoorEnter += OpenDoor;
-        GameEvent.instance.onDoorExit += CloseDoor;
+        GameEvent.Instance.onDoorEnter += OpenDoor;
+        GameEvent.Instance.onDoorExit += CloseDoor;
     }
 
     public void OpenDoor(int openCount)

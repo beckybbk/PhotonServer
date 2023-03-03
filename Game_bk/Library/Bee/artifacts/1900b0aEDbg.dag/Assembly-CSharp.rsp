@@ -354,6 +354,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/Button/CreateButton.cs"
 "Assets/Script/Button/TitleButton.cs"
+"Assets/Script/Manager/SingleTon.cs"
+"Assets/Script/Manager/SoundManager.cs"
 "Assets/Script/Map Event/CollisionArea.cs"
 "Assets/Script/Map Event/Door.cs"
 "Assets/Script/Map Event/GameEvent.cs"

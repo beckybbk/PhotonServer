@@ -7,12 +7,12 @@ public class CollisionArea : MonoBehaviour
     [SerializeField] int count;
     private void OnTriggerEnter(Collider other)
     {
-        GameEvent.instance.DoorTriggerEnter(count);
+        GameEvent.Instance.DoorTriggerEnter(count);
 
     }
 
     private void OnTriggerExit(Collider other)
     {
-        GameEvent.instance.DoorTriggerExit(count);
+        GameEvent.Instance.DoorTriggerExit(count);
     }
 }
