@@ -19,7 +19,8 @@ public class Door : MonoBehaviour
     {
         if (doorCount == openCount)
         {
-            animator.SetBool("open", true);
+            SoundManager.Instance.Sound(1);
+            animator.SetBool("open", true); // trigger의 이름을 넣으면 됨. 
         }
     }
 

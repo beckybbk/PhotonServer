@@ -7,7 +7,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    bool active;
     float mouseX;
+
+    [SerializeField] Camera [] personCamera;
     [SerializeField] float speed = 2.5f;
     [SerializeField] float mouseSpeed = 1.0f;
 
@@ -16,6 +19,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        CameraChange();
         Cursor.visible= false;
         Cursor.lockState = CursorLockMode.Locked;
 
@@ -35,5 +39,20 @@ public class Player : MonoBehaviour
 
         mouseX += Input.GetAxisRaw("Mouse X") * mouseSpeed;
         transform.eulerAngles=new Vector3(0,mouseX,0);
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            CameraChange();
+        }
+    }
+
+    private void CameraChange()
+    {
+        active = !active;       
+       
+                personCamera[0].gameObject.SetActive(active);
+                
+                personCamera[1].gameObject.SetActive(!active);
+                
     }
 }

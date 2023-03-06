@@ -35,7 +35,7 @@ public class TitleButton : CreateButton
     public override void Function2() 
     {
         Debug.Log("Function 2 »£√‚");
-        SoundManager.Instance.Sound();
+        SoundManager.Instance.Sound(0);
     }
 
     public override void Function3()

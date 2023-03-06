@@ -6,6 +6,7 @@ public class SingleTon<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T instance;
 
+    
     public static T Instance
     {
         get
@@ -13,7 +14,9 @@ public class SingleTon<T> : MonoBehaviour where T : MonoBehaviour
             if(instance == null)
             {
                 GameObject manager = GameObject.Find(typeof(T).Name);
-                if(manager == null ) 
+                
+
+                if (manager == null ) 
                 { 
                     manager = new GameObject(typeof(T).Name);
                     instance=manager.AddComponent<T>();
@@ -22,7 +25,11 @@ public class SingleTon<T> : MonoBehaviour where T : MonoBehaviour
                 else
                 {
                     instance=manager.GetComponent<T>();
+                 
                 }
+
+                //DontDestroyOnLoad(manager);
+
             }
 
             return instance;
