@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
         characterController.Move(transform.TransformDirection(direction.normalized) * speed*Time.deltaTime);  // 캐릭터 컨트롤러 사용시 (벽 통과 안하도록) 
         // transform.Translate(direction.normalized * speed * Time.deltaTime);
 
-        mouseX += Input.GetAxisRaw("Mouse X") * mouseSpeed;
+        mouseX += Input.GetAxisRaw("Mouse X") * mouseSpeed*Time.deltaTime;
         transform.eulerAngles=new Vector3(0,mouseX,0);
 
         if(Input.GetKeyDown(KeyCode.Q))

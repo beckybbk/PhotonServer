@@ -13,9 +13,9 @@ public class CameraRotation : MonoBehaviour
    
     void Update()
     {
-        mouseY += Input.GetAxisRaw("Mouse Y") * mouseSpeed;
+        mouseY += Input.GetAxisRaw("Mouse Y") * mouseSpeed*Time.deltaTime;
 
-        mouseY = Mathf.Clamp(mouseY, -55.0f, 35.0f);  // mouse의 최소값, 최대값 설정 
+        mouseY = Mathf.Clamp(mouseY, -55.0f, 35.0f);  // mouseY의 최소값, 최대값 설정 
 
         transform.localEulerAngles = new Vector3(-mouseY,0, 0);
 
