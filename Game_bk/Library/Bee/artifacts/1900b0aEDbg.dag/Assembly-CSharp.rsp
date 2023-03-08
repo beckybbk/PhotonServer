@@ -361,6 +361,7 @@
 "Assets/Script/Map Event/CollisionArea.cs"
 "Assets/Script/Map Event/Door.cs"
 "Assets/Script/Map Event/GameEvent.cs"
+"Assets/Script/Map Event/Mission.cs"
 "Assets/Script/Player/CameraRotation.cs"
 "Assets/Script/Player/Player.cs"
 -langversion:9.0

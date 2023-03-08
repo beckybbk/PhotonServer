@@ -42,6 +42,10 @@ public class GameButton : CreateButton
     public override void Function1()
     {
         buttonDisable(false);
+
+        Cursor.visible = false;
+        Cursor.lockState=CursorLockMode.Locked;
+
         Time.timeScale= 1.0f;
     }
 
@@ -52,6 +56,7 @@ public class GameButton : CreateButton
 
     public override void Function3()
     {
-        SceneManager.LoadScene("Title");
+        Destroy(GameEvent.Instance.gameObject);
+        SceneManager.LoadScene("Title Scene");
     }   
 }

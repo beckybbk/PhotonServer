@@ -13,12 +13,22 @@ public class GameEvent : SingleTon<GameEvent>
 
     private void Awake()
     {
-        
-        if(instance==null)
+
+        DontDestroyOnLoad(this.gameObject);
+
+
+        if (instance == null)
         {
             instance = this;
 
         }
+
+        //var obj = FindObjectsOfType<GameEvent>();
+
+        //if (obj.Length != 1)
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
     public void DoorTriggerEnter(int enterCount)
