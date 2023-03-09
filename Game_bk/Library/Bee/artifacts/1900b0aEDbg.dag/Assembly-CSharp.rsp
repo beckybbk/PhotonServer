@@ -364,6 +364,7 @@
 "Assets/Script/Map Event/Mission.cs"
 "Assets/Script/Player/CameraRotation.cs"
 "Assets/Script/Player/Player.cs"
+"Assets/Script/QuickSort.cs"
 -langversion:9.0
 
 /deterministic
