@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,11 @@ public class QuickSort : MonoBehaviour
 
     void QuickFunction(int[] array, int start, int end)
     {
+        if(start >=end)
+        {
+            return;
+        }
+
         int pivot = start;
         int left = pivot + 1;
         int right = end;  // data.Length-1이 이미 인수로 (end)로 정해졌으므로. 
@@ -31,7 +37,7 @@ public class QuickSort : MonoBehaviour
             if (left > right)
             {
                 temp = array[right];
-                array[left] = array[pivot];
+                array[right] = array[pivot];
                 array[pivot] = temp;
 
             }
@@ -43,6 +49,13 @@ public class QuickSort : MonoBehaviour
             }
             // + 엇갈릴때 + 엇갈림 아닐때 (둘다 값 스왑)
         }
+
+        // 재귀함수 
+        QuickFunction(data, start, right - 1);
+        QuickFunction(data, right + 1, end);
+
+
+
     }
     void Start()
     {
